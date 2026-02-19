@@ -1,0 +1,23 @@
+{
+  "name": "telegram-youtube-downloader-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that downloads YouTube videos and sends them back if they are under Telegram size limits.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "youtube",
+    "bot",
+    "ytdl"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "yt-dlp-exec": "^1.0.2"
+  },
+  "type": "commonjs"
+}
